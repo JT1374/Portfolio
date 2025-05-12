@@ -95,6 +95,5 @@ The images in this project are not mine and are for placeholder purposes only.
    <img src="screenshots/Screenshot 2025-05-12 021358.png" width="400px" height="400px" alt="image of project"/>
    <img src="screenshots/Screenshot 2025-05-12 021424.png" width="400px" height="400px" alt="image of project"/>
    <img src="screenshots/Screenshot 2025-05-12 021620.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots/Screenshot 2025-05-12 021740.png" width="400px" height="400px" alt="image of project"/>
    <img src="screenshots/Screenshot 2025-05-12 021756.png" width="400px" height="400px" alt="image of project"/>
 </p>
