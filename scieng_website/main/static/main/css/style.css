@@ -1,0 +1,176 @@
+/* main/static/main/style.css */
+
+/* Global styles for body and img elements */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* black background */
+    color: #fff; /* white text for contrast */
+}
+
+
+img {
+    max-width: 600px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* Styles for specific classes */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* slightly lighter black/gray */
+    padding: 0.5rem 1rem;
+}
+
+
+.nav-brand {
+    font-weight: bold;
+    color: #ff0000; /* red highlight */
+    text-decoration: none;
+}
+
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav-menu a:hover {
+    color: #ff0000; /* red on hover */
+}
+
+
+/* Logout button */
+.logout-btn {
+    background: none;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+
+
+.logout-btn:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;       /* Centers the container */
+    padding: 1rem;
+    text-align: center;   /* Centers headings */
+}
+
+
+/* Home page image and container */
+.home-container {
+    display: flex;           /* Lay out text and image side by side */
+    align-items: center;     /* Vertically center them */
+    justify-content: space-between;
+    padding: 2rem;          /* Some space around the container */
+    gap: 2rem;
+}
+
+
+.home-text {
+    flex: 1;
+    max-width: 600px;
+    color: white;
+}
+
+
+.home-text p {
+    font-size: larger;
+}
+
+
+.home-image {
+    flex: 1; 
+    display: flex;
+    max-width: 1000px;  
+    height: 700px; 
+    object-fit: cover; 
+    justify-content: center;
+}
+
+
+.home-image img {
+    max-width: 600px;  /* limits size of image in home page */
+    height: auto; /* To preserve aspect ratio */
+}
+
+
+/* For project list and detail.*/
+.project-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.project-item {
+    width: 100%;
+    max-width: 600px;
+    background-color: #222;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+.project-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;  /* Inherit color so link styling doesn't override text */
+    width: 100%;
+}
+
+
+.project-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 5px; 
+}
+
+
+.project-info {
+    flex: 1;  /* Takes up remaining space */
+    text-align: left;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+}

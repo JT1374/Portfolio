@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Science & Engineering Org</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="nav-brand">SciEng</a>
+            <ul class="nav-menu">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'project_list' %}">Projects</a></li>
+                {% if user.is_authenticated %}
+                  <li>
+                    <form method="POST" action="{% url 'logout' %}">
+                      {% csrf_token %}
+                      <button type="submit" class="logout-btn">Logout</button>
+                    </form>
+                  </li>
+                {% else %}
+                  <li><a href="{% url 'login' %}">Login</a></li>
+                  <li><a href="{% url 'signup' %}">Sign Up</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+      <h1>All Projects</h1>
+      <ul class="project-list">
+        {% for project in projects %}
+            <li class="project-item">
+              <a href="{% url 'project_detail' project.id %}" class="project-link">
+                <!-- Display the project's image if it exists, otherwise a default image -->
+                {% if project.image %}
+                  <img src="{{ project.image.url }}" alt="{{ project.title }}" class="project-image" >
+                {% else %}
+                  <img src="{% static 'main/images/default.png' %}" alt="No Image" class="project-image">
+                {% endif %}
+                
+                <!-- Displays Title and Status -->
+                <div class="project-info">
+                    <h2>{{ project.title }}</h2>
+                    <p><strong>Status:</strong> {{ project.get_status_display }}</p>
+                </div>
+              </a>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SciEng Organization</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Science & Engineering Org</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="nav-brand">SciEng</a>
+            <ul class="nav-menu">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'project_list' %}">Projects</a></li>
+                {% if user.is_authenticated %}
+                  <li>
+                    <form method="POST" action="{% url 'logout' %}">
+                      {% csrf_token %}
+                      <button type="submit" class="logout-btn">Logout</button>
+                    </form>
+                  </li>
+                {% else %}
+                  <li><a href="{% url 'login' %}">Login</a></li>
+                  <li><a href="{% url 'signup' %}">Sign Up</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+
+    <div class="home-container">
+      <div class="home-text">
+          <h1>Welcome to the Science and Engineering Organization</h1>
+          <p>
+             We are a research group of friends and we all specialize in some form of engineering or science. 
+             What we do is make new gizmos or inventions like a rocket powered hammer or a robot that plays games.
+             The reason we do this? For fun or practicallity also we make videos or what not about each project and
+             We post them on our website so that you can see which project is coming next and the purpose behind each one.
+             And, Finally we Welcome all of you guys and a big thanks for all that you do to support us as we share these cool inventions 
+             we make!
+          </p>
+      </div>
+      
+      <div class="home-image">
+          <img src="{% static 'main/images/Logo.png' %}" alt="Science and Engineering Logo">
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SciEng Organization</p>
+    </footer>
+</body>
+</html>

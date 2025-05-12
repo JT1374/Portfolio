@@ -1,0 +1,104 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae of No One</title>
+    <link rel="stylesheet" href="{% static 'styles1.css' %}">
+</head>
+<body>
+    <header>
+        <!--Main heading-->
+        <h1>No One CV</h1>
+    </header>
+
+    <section>
+        <!--Section for personal details-->
+        <h2 id="About me">A little bit about me:</h2>
+
+        <p> Hello! I'm <em>No One</em>. I'm 22 and like the outdoors and learning new things.
+            I'm a software engineer with a passion for coding and problem-solving. I have worked 
+            in both a service role and factory role which gave me a good understanding of resposibility 
+            and teamwork. I'm currently studying a software engineering bootcamp inorder to enter
+            the industry as a <em>Junior Software Engineer</em>.
+        </p>
+
+        <p> My goal is to become a leader in the tech industry and what inspires
+            me is the endless possibilities that technology offers. I'm excited to learn and grow
+            with the industry and contribute to the development of better tech and the improvement of humanity.
+        </p>
+    </section>
+
+    <section>
+        <!--Section for contact details.-->
+        <h2>Contact</h2>
+        <img id="pfp" src="{% static 'assets/place_holder_pfp.jpg' %}" alt="picture">
+        <ul>
+            <li>Name: No one</li>
+            <li>Email: None</li>
+            <li>GitHub: <a href="https://github.com/" target="_blank">My GitHub Profile</a></li>
+        </ul>
+        
+    </section>
+
+    <section>
+        <!--Section for skills.-->
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, HTML, CSS</li>
+            <li>Maths and Physics</li>
+            <li>Martial Arts: Krav Maga</li>
+            <li>Problem-solving</li>
+        </ul>
+    </section>
+
+    <section>
+        <!--Section for work education.-->
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Pass for Highschool</li>
+            <li>HTML and CSS through freecodecamp.</li>
+        </ul>
+    </section>
+
+    <section>
+        <!--Section for work experience.-->
+        <h2>Work Experience</h2>
+        <ul>
+            <li>CNC Operater at DMC Machine Services</li>
+            <li>Catering for wedding venues at Thatch Roof</li>
+            <li>Bartender at Poolcity Newton park</li>
+        </ul>
+    </section>
+
+    <section>
+        <!--Section for search bar for cv.-->
+        <h2>Search the CV</h2>
+        <form method="GET" action="/search">
+            <label for="search">Search for keywords:</label>
+            <input type="text" id="search" name="search" placeholder="search">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section>
+        <!--Section for user to email me.-->
+        <h2>Contact Me</h2>
+        <form method="POST" action="/submit">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>

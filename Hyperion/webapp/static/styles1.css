@@ -1,0 +1,106 @@
+
+/* Applies the general font and back ground color for the body. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e8e9;
+}
+
+/* Changes back color and text color 
+   as well as aligns it and adds padding. */
+header {
+    background: #ff0000;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Removes the heading 1 margin.*/
+h1 {
+    margin: 0;
+}
+
+/* Adds color to h2 border and text then adds */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+/* Section Styles */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Emphasize important things by boldening them. */
+em {
+    font-weight: bold;
+}
+
+/* Makes the image circular and moved to the right of text. */
+#pfp {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+
+/* Gets rid of the bullet point of list and padding.*/
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Add a margin to list items. */
+li {
+    margin: 10px 0;
+}
+
+/* Makes forms flex. */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adds margin to labels. */
+label {
+    margin: 10px 0 5px;
+}
+
+/* */
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styles the button with a red background, black text,
+   no border, and rounded corners. */
+button {
+    background: #ff1414;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Changes the button background to a darker red when
+   hovered over for a visual effect. */
+button:hover {
+    background: #990a0a;
+}
+
+/* Sets the link color to a bright red. */
+a {
+    color: #fa0101;
+}

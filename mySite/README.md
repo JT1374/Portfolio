@@ -1,0 +1,97 @@
+# mySite Project
+
+`mySite` is a Django web app to showcase personal information, projects, and provide a way for visitors to contact you. It is a currently in progress project. Will update at some point soon.
+
+---
+
+## Table of Contents
+
+1. [Features](#features)
+2. [How to Install](#how-to-install)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contact](#contact)
+6. [Images](#images)
+7. [Screenshots of Project](#screenshots-of-project)
+
+---
+
+## Features
+
+- **About Page**: Share your personal details and a brief introduction.
+- **Projects Page**: Highlight the projects you've worked on.
+- **Contact Page**: Provide your contact details (email, phone, LinkedIn).
+
+---
+
+## How to Install
+
+1. **Clone the Project**:
+   ```bash
+   git clone <repository-url>
+   cd mySite
+   ```
+
+2. **Set Up a Virtual Environment**:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # For Windows
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set Up the Database**:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the App**:
+   ```bash
+   python manage.py runserver
+   ```
+
+6. **Open in Your Browser**:
+   Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+---
+
+## Usage
+
+1. Visit the **About Page** to learn more about the individual.
+2. Explore the **Projects Page** to view a list of completed or ongoing projects.
+3. Use the **Contact Page** to send a message or connect via provided contact details.
+4. In Web url with ending in 8000/admin/ to access admin but create superuser before then.
+5. If you get an error page but it shows web urls just add whatever is there to 8000/ in url to navigate to the desired urls.
+6. Look to Screenshots section for better visuals on this.
+
+---
+
+## License
+
+Has no licence.
+
+---
+
+## Contact
+
+Questions or feedback? Email me at [barnesjulian368@gmail.com].
+
+---
+
+## Images
+
+The images in this project are not mine and are for placeholder purposes only.
+
+---
+
+## Screenshots of Project
+
+<p text-align="center">
+   <img src="screenshots2/Screenshot 1.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 2.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 3.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 4.png" width="400px" height="400px" alt="image of project"/>
+</p>
