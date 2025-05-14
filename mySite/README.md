@@ -9,10 +9,10 @@
 1. [Features](#features)
 2. [How to Install](#how-to-install)
 3. [Usage](#usage)
-4. [License](#license)
-5. [Contact](#contact)
-6. [Images](#images)
-7. [Screenshots of Project](#screenshots-of-project)
+4. [Screenshots of Project](#screenshots-of-project)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Images](#images)
 8. [Credits](#credits)
 
 ---
