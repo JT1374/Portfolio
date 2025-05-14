@@ -13,6 +13,7 @@
 5. [Contact](#contact)
 6. [Images](#images)
 7. [Screenshots of Project](#screenshots-of-project)
+8. [Credits](#credits)
 
 ---
 
@@ -63,9 +64,15 @@
 1. Visit the **About Page** to learn more about the individual.
 2. Explore the **Projects Page** to view a list of completed or ongoing projects.
 3. Use the **Contact Page** to send a message or connect via provided contact details.
-4. In Web url with ending in 8000/admin/ to access admin but create superuser before then.
-5. If you get an error page but it shows web urls just add whatever is there to 8000/ in url to navigate to the desired urls.
-6. Look to Screenshots section for better visuals on this.
+
+### Screenshots
+
+<p text-align="center">
+   <img src="screenshots2/Screenshot 1.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 2.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 3.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots2/Screenshot 4.png" width="400px" height="400px" alt="image of project"/>
+</p>
 
 ---
 
@@ -87,11 +94,6 @@ The images in this project are not mine and are for placeholder purposes only.
 
 ---
 
-## Screenshots of Project
+## Credits
 
-<p text-align="center">
-   <img src="screenshots2/Screenshot 1.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots2/Screenshot 2.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots2/Screenshot 3.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots2/Screenshot 4.png" width="400px" height="400px" alt="image of project"/>
-</p>
+This project was created by Julian Barnes.

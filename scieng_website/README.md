@@ -13,6 +13,7 @@
 5. [Contact](#contact)
 6. [Images](#images)
 7. [Screenshots of Project](#screenshots-of-project)
+8. [Credits](#credits)
 
 ---
 
@@ -66,9 +67,17 @@
 2. Explore the **Projects** section to view detailed project information.
 3. Use the **Sign Up** or **Log In** options to create an account or access additional features.
 4. Use the **Contact Form** to send inquiries or feedback.
-5. In Web url with ending in 8000/admin/ to access admin but create superuser before then.
-6. If you get an error page but it show web urls just add whatever is there to 8000/ in url to navigate to the desired urls.
-7. Look to Screenshots section for better visuals on this.
+
+### Screenshots
+
+<p text-align="center">
+   <img src="screenshots3/Screenshot 1.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots3/Screenshot 2.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots3/Screenshot 3.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots3/Screenshot 4.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots3/Screenshot 5.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots3/Screenshot 6.png" width="400px" height="400px" alt="image of project"/>
+</p>
 
 ---
 
@@ -90,13 +99,6 @@ The images in this project are not mine and are for placeholder purposes only.
 
 ---
 
-## Screenshots of Project
+## Credits
 
-<p text-align="center">
-   <img src="screenshots3/Screenshot 1.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots3/Screenshot 2.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots3/Screenshot 3.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots3/Screenshot 4.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots3/Screenshot 5.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots3/Screenshot 6.png" width="400px" height="400px" alt="image of project"/>
-</p>
+This project was created by Julian Barnes.

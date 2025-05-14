@@ -13,6 +13,7 @@
 5. [Contact](#contact)
 6. [Images](#images)
 7. [Screenshots of Project](#screen-shots-of-project)
+8. [Credits](#credits)
 
 ---
 
@@ -61,13 +62,19 @@
 
 ## Usage
 
-1. Use the **Blog** section to view posts made.
+1. Use the **Blog** section to create and share posts.
 2. Register or log in to access user-specific features.
 3. Create and participate in **Polls** to gather opinions.
 4. Visit the **Portfolio** section to view professional details and work experience.
-5. In Web url with ending in 8000/admin/ to access admin but create superuser before then.
-6. If you get an error page but it shows web urls just add whatever is there to 8000/ in url to navigate to the desired urls.
-7. Look to Screenshots section for better visuals on this.
+
+### Screenshots
+
+<p text-align="center">
+   <img src="screenshots/Screenshot 2025-05-12 021358.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots/Screenshot 2025-05-12 021424.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots/Screenshot 2025-05-12 021620.png" width="400px" height="400px" alt="image of project"/>
+   <img src="screenshots/Screenshot 2025-05-12 021756.png" width="400px" height="400px" alt="image of project"/>
+</p>
 
 ---
 
@@ -89,11 +96,6 @@ The images in this project are not mine and are for placeholder purposes only.
 
 ---
 
-## Screen Shots Of Project
+## Credits
 
-<p text-align="center">
-   <img src="screenshots/Screenshot 2025-05-12 021358.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots/Screenshot 2025-05-12 021424.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots/Screenshot 2025-05-12 021620.png" width="400px" height="400px" alt="image of project"/>
-   <img src="screenshots/Screenshot 2025-05-12 021756.png" width="400px" height="400px" alt="image of project"/>
-</p>
+This project was created by Julian Barnes.
